@@ -13,12 +13,12 @@ permalink: /kontakt/
 <body>
   <header>
     <h1>Kontakt</h1>
-    <nav>
-      <a href="/"><i class="material-icons">home</i> Strona główna</a>
-      <a href="/aktualnosci"><i class="material-icons">event</i> Aktualności</a>
-      <a href="/o-szkole"><i class="material-icons">school</i> O szkole</a>
-      <a href="/oferta"><i class="material-icons">menu_book</i> Oferta</a>
-    </nav>
+   <nav>
+  <a href="{{ site.baseurl }}/aktualnosci"><i class="material-icons" style="vertical-align:middle;">event</i> Aktualności</a>
+  <a href="{{ site.baseurl }}/o-szkole"><i class="material-icons" style="vertical-align:middle;">school</i> O szkole</a>
+  <a href="{{ site.baseurl }}/oferta"><i class="material-icons" style="vertical-align:middle;">menu_book</i> Oferta</a>
+  <a href="{{ site.baseurl }}/kontakt"><i class="material-icons" style="vertical-align:middle;">mail</i> Kontakt</a>
+</nav>
   </header>
   <main>
     <section class="mdc-card">
